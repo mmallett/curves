@@ -1,0 +1,147 @@
+/********************
+CURVES
+********************/
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 2922262, 2014-11-14T10:06:02-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Novecentosanswide-Light by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-light/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2922262
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Novecento sans wide Book;
+	src: url(../fonts/NovecentosanswideBook.otf);
+}
+
+@font-face {
+	font-family: Novecento sans wide Light;
+	src: url(../fonts/NovecentoSansWideLight.otf);
+}
+
+@font-face {
+	font-family: Novecento sans wide Medium;
+	src: url(../fonts/NovecentosanswideMedium.otf);
+}
+/********************
+PANEL 1
+********************/
+
+#panel1 {
+	background: url(../images/panel1.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+
+}
+
+#leftCol {
+}
+
+#panel1 #line1 {
+	font-family: Novecento sans wide Book;
+	font-size: 40pt;
+	color: #e5be0e;
+}
+
+#panel1 #line2 {
+	font-family: Novecento sans wide Light;
+	font-size: 90pt;
+	line-height: 40pt;
+}
+
+#panel1 #line3 span{
+	font-family: Novecento sans wide Medium;
+	font-size: 20pt;
+	vertical-align: top;
+	line-height: 70pt;
+	color: white;
+}
+
+#panel1 #line3 {
+	font-family: Novecento sans wide Medium;
+	font-size: 40pt;
+	line-height: 80pt;
+	color: #e5be0e;
+}
+
+#panel1 #line4 {
+	font-family: Novecento sans wide Medium;
+	font-size: 67pt;
+	line-height: 10pt;
+	color: #e5be0e;
+}
+
+#panel1 #justifiedText {
+	padding-top: 50px;
+}
+
+#panel1 #line5 {
+	font-family: helvetica;
+	font-size: 17pt;
+}
+
+#panel1 #line6 {
+	font-family: helvetica;
+	font-size: 18.5pt;
+}
+
+#panel1 #line7 {
+	font-family: helvetica;
+	font-size: 35pt;
+	font-weight: bold;
+	color: #e5be0e;
+}
+
+#panel1 #line8 {
+	font-family: Novecento sans wide Book;
+	font-size: 20pt;
+	line-height: 40pt;
+}
+
+#panel1 #line8 span {
+	font-family: Novecento sans wide Medium;
+	font-size: 20pt;
+	line-height: 60pt;
+	color: #e5be0e;
+}
+
+.form #promotionCode input {
+	width: 450px;
+	height: 40px;
+	background-color: #522046;
+	border: none;
+	-moz-box-shadow: inset 3px 3px 15px -1px black;
+	-webkit-box-shadow: inset 3px 3px 15px -1px black;
+	box-shadow: inset 3px 3px 15px -1px black;
+}
+
+.form #promotionCode input:focus {
+	border: none;
+}
+
+
+
+
+
+
