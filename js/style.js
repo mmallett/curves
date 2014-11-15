@@ -14,6 +14,8 @@ $(document).ready(function(){
 
 	setSpacerDiv4();
 
+	setSpacerDivL();
+
 });
 
 $(window).resize(function(){
@@ -29,6 +31,8 @@ $(window).resize(function(){
 	setSpacerDiv3();
 
 	setSpacerDiv4();
+
+	setSpacerDivL();
 
 });
 
@@ -52,7 +56,7 @@ function setSpacerDiv1(){
 }
 
 function setSpacerDiv2(){
-	var contentHeight = $('#leftColumn').outerHeight(true);
+	var contentHeight = $('#panel2height').outerHeight(true);
 
 	var emptySpace = $(window).height() - contentHeight;
 
@@ -75,6 +79,13 @@ function setSpacerDiv4(){
 	$("#spacer4").height(emptySpace/2);
 }
 
+//function setSpacerDivL(){
+//	var contentHeight = $("#leftCol2").outerHeight(true);
+
+//	var emptySpace = $(window).height() - contentHeight;
+
+//	$("#leftColSpacer").height(emptySpace/2);
+//}
 
 
 

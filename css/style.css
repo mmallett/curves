@@ -23,6 +23,11 @@ CURVES
  * © 2014 MyFonts Inc
 */
 
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
 #wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -55,7 +60,51 @@ PANEL 1
 
 }
 
-#leftCol {
+#navigation{
+	background: url(../images/header.png) no-repeat center;
+	margin: 0 auto;
+	height: 185px;
+	width: 1024px;
+	font-family: helvetica;
+	font-size: 20pt;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#navigation ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+#navigation a{
+	color: #3c183c;
+}
+
+#navigation a:hover {
+	text-decoration: none;
+	color: #5d245d;
+}
+
+#navigation .navLeft {
+	float: left;
+	text-decoration: none;
+	margin-top: 73px;
+	padding-left: 65px;
+}
+
+#navigation .navRight {
+	float: right;
+	text-decoration: none;
+	margin-top: 73px;
+	padding-right: 65px;
+}
+
+#panel1 #rightCol {
+
+}
+
+#panel1 #leftCol {
+
 }
 
 #panel1 #line1 {
@@ -136,8 +185,104 @@ PANEL 1
 	box-shadow: inset 3px 3px 15px -1px black;
 }
 
+/********************
+PANEL 2
+********************/
 
+#dropShadow {
+	background: url(../images/dropShadow.jpg)no-repeat center;
+	margin: 0 auto;
+	height:31px;
+}
 
+#panel2 {
+	background: white;
+	background-size: cover;
+	width: 70%;
+	margin: 0 auto;
+}
 
+hr {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #e5be0e;
+	height: 2px;
+	margin-top: 10px;
+}
+
+#panel2 p {
+	font-family: HelveticaNeue-Light, helvetica;
+	font-size: 20pt;
+	color: #423f40;
+}
+
+#panel2 #rightCol2 #italic span{
+	color: #e5be0e;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#panel2 #rightCol2 #nonItalic span{
+	color: #e5be0e;
+	font-weight: bold;
+}
+
+#leftColSpacer{
+	height: 50px;
+}
+
+#rightCol2 {
+	margin-bottom: 20px;
+}
+
+#typicalFitness {
+	font-family: helveticaNue-Light, helvetica;
+	font-size: 20pt;
+	color: #423f40;
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#benefitsTop{
+	padding-bottom: 50px;
+}
+
+.checkBox {
+	float: left;
+	padding-bottom: 100px;
+}
+
+.benefits {
+}
+
+#benefitsTop p{
+	font-family: helveticaNue-Light, helvetica;
+	font-size: 18pt;
+	color: #423f40;
+	font-weight: lighter;
+}
+
+#benefitsTop span{
+	font-weight: bold;
+}
+
+#benefitsBottom p{
+	font-family: helveticaNue-Light, helvetica;
+	font-size: 18pt;
+	color: #423f40;
+	font-weight: lighter;
+}
+
+#benefitsBottom span{
+	font-weight: bold;
+}
+
+#panel2height {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
 
 
