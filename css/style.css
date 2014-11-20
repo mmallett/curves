@@ -48,6 +48,7 @@ body {
 	font-family: Novecento sans wide Medium;
 	src: url(../fonts/NovecentosanswideMedium.otf);
 }
+
 /********************
 PANEL 1
 ********************/
@@ -97,14 +98,6 @@ PANEL 1
 	text-decoration: none;
 	margin-top: 73px;
 	padding-right: 65px;
-}
-
-#panel1 #rightCol {
-
-}
-
-#panel1 #leftCol {
-
 }
 
 #panel1 #line1 {
@@ -193,6 +186,10 @@ PANEL 2
 	background: url(../images/dropShadow.jpg)no-repeat center;
 	margin: 0 auto;
 	height:31px;
+}
+
+.row {
+	margin-right: 0;
 }
 
 #panel2 {
@@ -285,4 +282,127 @@ hr {
 	padding-top: 50px;
 }
 
+/********************
+PANEL 3
+********************/
+
+#panel3 {
+	background: url(../images/panel3.jpg) center;
+	background-size: cover;
+}
+
+#panel3text {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+#banner {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+#museo {
+	width: 100%;
+	height: auto;
+}
+
+#panel3 p{
+	font-family: helvetica;
+	font-size: 17pt;
+	color: #514505;
+	text-align: center;
+}
+
+#pan3textBot p{
+	font-size: 25pt;
+}
+
+/********************
+PANEL 4
+********************/
+
+#formTopText {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+	letter-spacing: 1pt;
+	margin-top: 100px;
+}
+
+#formTopText span{
+	font-family: helvetica;
+	color: #e6c116;
+	font-size: 20pt;
+}
+
+#formTopText p{
+	font-family: helvetica;
+	font-size: 17pt;
+}
+
+#form {
+	width: 100%;
+	background: url(../images/form.jpg);
+	background-size: cover;
+	height: 418px;
+	margin: 0 auto;
+}
+
+#formBottomText{
+	width: 70%;
+	margin: 150px auto 40px auto ;
+	text-align: center;
+	letter-spacing: 1pt;
+}
+
+#formBottomText p {
+	font-family: helvetica;
+	font-size: 20pt;
+	color: #676767;
+}
+
+#formBottomText span{
+	font-style: italic;
+}
+
+#form {
+	padding-top: 74.5px;
+}
+
+#contactForm {
+	text-align: center;
+}
+
+#contactForm input{
+	margin-bottom: 20px;
+	width: 620px;
+	height: 48px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	padding-left: 5px;
+	box-shadow: inset 0px 0px -1px 5px black;
+	-webkit-box-shadow: inset 0px 0px -1px 5px black;
+	-moz-box-shadow: inset 0px 0px -1px 5px black;
+	color: white;
+	font-size: 16pt;
+}
+
+#button {
+	margin-top: 20px;
+}
+
+#button button{
+	background-color: #e6c116;
+	border: none;
+	width: 144px;
+	height: 45px;
+	font-family: helvetica;
+	font-size: 16pt;
+	box-shadow: 3px 3px 10px 1px;
+	-webkit-box-shadow: 3px 3px 10px 1px;
+	-moz-box-shadow: 3px 3px 10px 1px;
+}
 

@@ -64,7 +64,7 @@ function setSpacerDiv2(){
 }
 
 function setSpacerDiv3(){
-	var contentHeight = $('#boxText').outerHeight(true) + $('div.form').outerHeight(true);
+	var contentHeight = $('#panel4height').outerHeight(true);
 
 	var emptySpace = $(window).height() - contentHeight;
 
