@@ -72,6 +72,14 @@ PANEL 1
 	font-weight: bold;
 }
 
+#mobileNav {
+	background: url(../images/header.png) no-repeat center;
+	margin: 0 auto;
+	height: 185px;
+	width: 100%;
+	display: none;
+}
+
 #navigation ul{
 	text-decoration: none;
 	list-style: none;
@@ -199,13 +207,16 @@ PANEL 2
 	margin: 0 auto;
 }
 
-hr {
+#hr {
 	width: 100%;
 	margin: 0 auto;
 	background-color: #e5be0e;
 	height: 2px;
 	margin-top: 10px;
-}
+	margin-bottom: 40px;
+	text-align: center;
+	clear: both;
+} 
 
 #panel2 p {
 	font-family: HelveticaNeue-Light, helvetica;
@@ -241,6 +252,8 @@ hr {
 	width: 80%;
 	margin-top: 20px;
 	margin-bottom: 50px;
+	position: relative;
+
 }
 
 #benefitsTop{
@@ -248,6 +261,11 @@ hr {
 }
 
 .checkBox {
+	float: left;
+	padding-bottom: 135px;
+}
+
+.checkBoxBottom{
 	float: left;
 	padding-bottom: 100px;
 }
@@ -406,3 +424,93 @@ PANEL 4
 	-moz-box-shadow: 3px 3px 10px 1px;
 }
 
+/********************
+MEDIA QUERIES
+********************/
+
+@media (max-width: 1200px) {
+	.checkBox {
+		padding-bottom: 0;
+	}
+
+	.checkBoxBottom {
+		padding-bottom: 0;
+	}
+
+	#benefitsTop {
+		padding-bottom: 0;
+	}
+
+	.form #promotionCode input {
+		margin-bottom: 50px;
+	}
+
+
+}
+
+@media (max-width: 1050px) {
+	#navigation {
+		display: none;
+	}
+
+	#mobileNav {
+		display: block;
+		position: relative;
+	}
+
+	#mobileMenu {
+		position: absolute;
+		left: 40px;
+		top: 77px;
+	}
+
+	.dropdown-menu {
+		top: 115px;
+	}
+
+	#group {
+		text-align: center;
+	}
+}
+
+@media (max-width: 715px) {
+
+	#panel1 #line1{
+		font-size: 30pt;
+	}
+
+	#panel1 #line2{
+		font-size: 60pt;
+	}
+
+	#panel1 #line3{
+		font-size: 15pt;
+	}
+
+	#panel1 #line4{
+		font-size: 55pt;
+	}
+
+	#panel1 #line5{
+		font-size: 12pt;
+	}
+
+	#panel1 #line6{
+		font-size: 13pt;
+	}
+
+	#panel1 #line7{
+		font-size: 15pt;
+	}
+
+	#panel1 #line8{
+
+	}
+
+	#panel1,
+	#panel2,
+	#panel3,
+	#panel4 {
+		min-width: 715px;
+	}
+}

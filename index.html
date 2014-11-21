@@ -9,10 +9,28 @@
 </head>
 
 <body>
+	
 	<div id="wrapper">
 		<div id="panel1" class="row">
+
+
+		<div id="mobileNav">
+			<div class="dropdown">
+				  <button id="mobileMenu" class="btn btn-default dropdown-toggle pull-left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+				    Menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#panel2">about</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#nonItalic">benefits</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">contact</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">location</a></li>
+				  </ul>
+			</div>
+		</div>
 			<div id="navigation">
-				<ul>
+
+				<ul id="links">
 					<li class="navLeft"><a href="#panel2">about</a></li>
 					<li class="navLeft"><a href="#nonItalic">benefits</a></li>
 					<li class="navRight"><a href="#">contact</a></li>
@@ -47,17 +65,19 @@
 	<div id="panel2">
 		<div id="spacer2"></div>
 			<div id="panel2height">
-			<div class="col-lg-4"><div id="leftColSpacer"></div> <img src="images/group.jpg"></div>
-			<div id="rightCol2" class="col-lg-8">
-				<p id="italic">Imagine being guided and mentored by <span>America's leading female fitness professional.</span> In real time. In a setting that allows for a connection between Jillian and yourself.<br>
-	It's all possible now with our exclusive videos tailored to Curves' state-of-the-art equipment.</p>
-	<p id="nonItalic">
-	You can work out with Jillian for as little as <span>$12 per week</span>, just minutes from your home in Port Jefferson Station.
-				</p>
-			</div>
-			<hr></hr>
+				<div id="group" class="col-lg-4"><div id="leftColSpacer"></div> <img src="images/group.jpg"></div>
+				<div id="rightCol2" class="col-lg-8">
+					<p id="italic">Imagine being guided and mentored by <span>America's leading female fitness professional.</span> In real time. In a setting that allows for a connection between Jillian and yourself.<br>
+		It's all possible now with our exclusive videos tailored to Curves' state-of-the-art equipment.</p>
+		<p id="nonItalic">
+		You can work out with Jillian for as little as <span>$12 per week</span>, just minutes from your home in Port Jefferson Station.
+					</p>
+				
+				</div>
+			
 
 			<div id="typicalFitness" class="row">
+				<div id="hr"></div>
 				<p>
 					Curves is <strong>not</strong> your typical fitness center.<br> 
 	In addition to our exclusive Jillian Michaels workouts, you'll find:
@@ -79,12 +99,12 @@
 
 			<div id="benefitsBottom" class="row benefits">
 				<div class="col-lg-6">
-						<p><img class="checkBox" src="images/checkBox.jpg" ><span>Women-Only Policy</span><br>
+						<p><img class="checkBoxBottom" src="images/checkBox.jpg" ><span>Women-Only Policy</span><br>
 							Work out in a comfortable and non-intimidating setting  </p>
 				</div>
 
 				<div class="col-lg-6">
-						<p><img class="checkBox" src="images/checkBox.jpg" ><span>One-On-One Guidance</span><br>
+						<p><img class="checkBoxBottom" src="images/checkBox.jpg" ><span>One-On-One Guidance</span><br>
 							In-person coaching from our medically trained, in-house physical 	therapists </p>
 				</div>
 			</div>
