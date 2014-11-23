@@ -186,6 +186,69 @@ PANEL 1
 	box-shadow: inset 3px 3px 15px -1px black;
 }
 
+#myModal {
+
+}
+
+#myModal .modal-header,
+#myModal .modal-footer{
+	border: none;
+}
+
+#myModal .modal-body {
+	color: black;
+	font-family: times;
+}
+
+#myModal .modal-body h3{
+	letter-spacing: .75em;
+	font-weight: 900;
+	font-size: 20pt;
+	text-align: center;
+	color: #824a80;
+}
+
+#myModal .modal-body p{
+	font-size: 16pt;
+	font-style: italic;
+	color: #9a9a9a;
+}
+
+#myModal .modal-body span{
+	font-size: 16pt;
+	font-style: italic;
+	color: #824a80;
+	font-weight: bold;
+}
+
+#modalBorder {
+	border: dashed 2px #9a9a9a;
+	margin: 20px;
+	border-radius: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#xButton {
+	margin-top: -20px;
+}
+
+#x {
+	font-family: Novecento sans wide Light;
+	font-size: 3em;
+	font-weight: lighter;
+	color: #824a80;
+}
+
+.close {
+	opacity: 1;
+}
+
+.modal-dialog {
+	width: 900px;
+	margin: 200px auto;
+}
+
 /********************
 PANEL 2
 ********************/

@@ -12,8 +12,25 @@
 	
 	<div id="wrapper">
 		<div id="panel1" class="row">
-
-
+<div  class="modal show">
+  <div class="modal-dialog">
+    <div id="myModal"class="modal-content">
+    	<div id="modalBorder">
+      <div class="modal-header">
+        <button id="xButton" type="button" class="close" data-dismiss="modal"><span id="x" aria-hidden="true">&times;</span><span id="myModal" class="sr-only">Close</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      	<h3>Congratulations!</h3>
+        <p>You've been selected to receive one free session with Jillian Michaels! Bring this coupon to your Port Jefferson Station Curves to learn more about this exclusive offer!</p><br>
+        <span>Don't wait, this amazing opportunity expires on January 16th!</span>
+      </div>
+      <div class="modal-footer">
+      </div>
+  </div><!-- ModalBorder -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 		<div id="mobileNav">
 			<div class="dropdown">
 				  <button id="mobileMenu" class="btn btn-default dropdown-toggle pull-left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
@@ -23,8 +40,8 @@
 				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#panel2">about</a></li>
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#nonItalic">benefits</a></li>
-				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">contact</a></li>
-				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">location</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#contactForm">contact</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#formBottomText">location</a></li>
 				  </ul>
 			</div>
 		</div>
@@ -33,8 +50,8 @@
 				<ul id="links">
 					<li class="navLeft"><a href="#panel2">about</a></li>
 					<li class="navLeft"><a href="#nonItalic">benefits</a></li>
-					<li class="navRight"><a href="#">contact</a></li>
-					<li class="navRight"><a href="#">location</a></li>
+					<li class="navRight"><a href="#contactForm">contact</a></li>
+					<li class="navRight"><a href="#formBottomText">location</a></li>
 				</ul>
 			</div>
 			<div id="leftCol" class="col-lg-6"><img src="images/jillian1.png" /></div>
