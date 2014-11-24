@@ -249,6 +249,10 @@ PANEL 1
 	margin: 200px auto;
 }
 
+.modal {
+	display: block;
+}
+
 /********************
 PANEL 2
 ********************/
