@@ -187,6 +187,16 @@ PANEL 1
 	padding: 10px;
 }
 
+#promotionCode button{
+	background-color: #e5be0e;
+	border: 0px;
+	height: 40px;
+	width: 40px;
+	box-shadow: 3px 3px 10px 1px black;
+	-webkit-box-shadow: 3px 3px 10px 1px black;
+	-moz-box-shadow: 3px 3px 10px 1px black;
+}
+
 #myModal {
 
 }

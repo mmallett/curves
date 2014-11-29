@@ -12,11 +12,11 @@
 <title>Curves</title>
 </head>
 
-<body onLoad="$('#modalPanel').modal('show');">
+<body>
 	
 	<div id="wrapper">
 		<div id="panel1" class="row">
-<div id="modalPanel" class="modal fade">
+<div id="modalPanel" class="modal fade hide">
   <div class="modal-dialog">
     <div id="myModal"class="modal-content">
     	<div id="modalBorder">
@@ -43,7 +43,7 @@
 				  </button>
 				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#panel2">about</a></li>
-				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#nonItalic">benefits</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#panel3">benefits</a></li>
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#contactForm">contact</a></li>
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#formBottomText">location</a></li>
 				  </ul>
@@ -53,7 +53,7 @@
 
 				<ul id="links">
 					<li class="navLeft"><a href="#panel2">about</a></li>
-					<li class="navLeft"><a href="#nonItalic">benefits</a></li>
+					<li class="navLeft"><a href="#panel3">benefits</a></li>
 					<li class="navRight"><a href="#contactForm">contact</a></li>
 					<li class="navRight"><a href="#formBottomText">location</a></li>
 				</ul>
@@ -73,7 +73,8 @@
 				<p id="line8">HAVE A CODE? <span>ENTER IT HERE</span></p>
 				<div class="form">
 			        <form id="promotionCode">
-			            <input type="text" name="code" id="input-code">    
+			            <input type="text" name="code" id="input-code">
+			            <button type="button"><span class="glyphicon glyphicon-chevron-right"></span></button>    
 			        </form>
         </div>
 			</div>
@@ -175,6 +176,7 @@ for a <strong>complimentary tour and two free half hour sessions</strong> at our
 <script src="js/style.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>	
+<script src="js/submitform.js"></script>
 
 </body>
 </html>

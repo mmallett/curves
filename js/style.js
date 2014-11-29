@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 	setSpacerDiv4();
 
-	setSpacerDivL();
+	//setSpacerDivL();
 
 });
 
@@ -32,7 +32,7 @@ $(window).resize(function(){
 
 	setSpacerDiv4();
 
-	setSpacerDivL();
+	//setSpacerDivL();
 
 });
 
