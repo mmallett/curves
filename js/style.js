@@ -2,6 +2,8 @@ var DOWN_ARROW_SIZE = 50;
 
 $(document).ready(function(){
 
+	// $('#myModal').modal('hide');
+
 	$(".full-page-panel").height($(window).height());
 
 	// call helper functions to vertically align content

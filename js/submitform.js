@@ -75,17 +75,18 @@ function checkCouponCode(){
 
 	$.post('coupon_code.php', data)
 	.done(function(data){
-		if(data.valid){
-			$('#modalPanel').modal('show');
-		}
-		else{
 
-		}
+		$('#myModal .modal-body').html(data);
+
+		$('#myModal').modal('show');
+		
 	})
 	.fail(function(jqXHR, textStatus, errorThrown){
-		messagebox.html(jqXHR.responseText);
-		messagebox.addClass('error');
-		button.prop("disabled", false);
+
+		$('#myModal .modal-body').html(jqXHR.responseText);
+
+		$('#myModal').modal('show');
+		
 	});
 
 }

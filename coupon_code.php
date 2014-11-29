@@ -13,16 +13,21 @@
 
 	$VALID_CODE = 'PJSCWJM';
 
-	$is_code_valid = $code === $VALID_CODE;
+	$VALID_HTML = "<h3>Congratulations!</h3>
+	        <p>You've been selected to receive one free session with Jillian Michaels! Bring this coupon to your Port Jefferson Station Curves to learn more about this exclusive offer!</p><br>
+	        <span>Don't wait, this amazing opportunity expires on January 16th!</span></br>" .
+	        '<button type="button" onclick="printModal()">Print</button>';
+	$FAIL_HTML = "<h3>Invalid Code</h3>";
 
-	# serialize to JSON and send result back
+	$ret = '';
 
-	$obj = new StdClass();
-	$obj->valid = $is_code_valid;
+	if($code === $VALID_CODE){
+		$ret = $VALID_HTML;
+	}
+	else{
+		$ret = $FAIL_HTML;
+	}
 
-	$json = json_encode($obj);
-
-	echo($json);
-
+	echo($ret);
 
 ?>

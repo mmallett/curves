@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link id="bootstrapcss" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link id="stylecss" href="css/style.css" rel="stylesheet" type="text/css"/>
 <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
 <link rel="icon" type="image/png" href="images/favicon.png" />
@@ -16,25 +16,7 @@
 	
 	<div id="wrapper">
 		<div id="panel1" class="row">
-<div id="modalPanel" class="modal fade hide">
-  <div class="modal-dialog">
-    <div id="myModal"class="modal-content">
-    	<div id="modalBorder">
-      <div class="modal-header">
-        <button id="xButton" type="button" class="close" data-dismiss="modal"><span id="x" aria-hidden="true">&times;</span><span id="myModal" class="sr-only">Close</span></button>
-        <h4 class="modal-title">Modal title</h4>
-      </div>
-      <div class="modal-body">
-      	<h3>Congratulations!</h3>
-        <p>You've been selected to receive one free session with Jillian Michaels! Bring this coupon to your Port Jefferson Station Curves to learn more about this exclusive offer!</p><br>
-        <span>Don't wait, this amazing opportunity expires on January 16th!</span>
-      </div>
-      <div class="modal-footer">
-      </div>
-  </div><!-- ModalBorder -->
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+
 		<div id="mobileNav">
 			<div class="dropdown">
 				  <button id="mobileMenu" class="btn btn-default dropdown-toggle pull-left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
@@ -172,11 +154,71 @@ for a <strong>complimentary tour and two free half hour sessions</strong> at our
 		</div>
 	</div>
 
+	<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      </div>
+      <div class="modal-body">
+        <h3>Congratulations!</h3>
+        <p>You've been selected to receive one free session with Jillian Michaels! Bring this coupon to your Port Jefferson Station Curves to learn more about this exclusive offer!</p><br>
+        <span>Don't wait, this amazing opportunity expires on January 16th!</span>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    	<div id="modalBorder">
+	      <div class="modal-header">
+	        <button id="x" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <!-- <h4 class="modal-title">Modal title</h4> -->
+	      </div>
+	      <div class="modal-body">
+	        
+	      </div>
+	      <div class="modal-footer">
+	        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button> -->
+	      </div>
+	  </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- 	<div id="modalPanel" class="modal fade hide">
+	  <div class="modal-dialog">
+	    <div id="myModal"class="modal-content">
+	    	<div id="modalBorder">
+	      <div class="modal-header">
+	        <button id="xButton" type="button" class="close" data-dismiss="modal"><span id="x" aria-hidden="true">&times;</span><span id="myModal" class="sr-only">Close</span></button>
+	        <h4 class="modal-title">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<h3>Congratulations!</h3>
+	        <p>You've been selected to receive one free session with Jillian Michaels! Bring this coupon to your Port Jefferson Station Curves to learn more about this exclusive offer!</p><br>
+	        <span>Don't wait, this amazing opportunity expires on January 16th!</span>
+	      </div>
+	      <div class="modal-footer">
+	      </div>
+	  </div>
+	    </div>
+	  </div>
+	</div>
+ -->
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="js/style.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>	
+<script src="js/style.js"></script>
+
 <script src="js/submitform.js"></script>
+<script src="js/print.js"></script>
 
 </body>
 </html>

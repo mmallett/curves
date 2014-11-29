@@ -198,7 +198,7 @@ PANEL 1
 }
 
 #myModal {
-
+	display: none;
 }
 
 #myModal .modal-header,
@@ -209,13 +209,13 @@ PANEL 1
 #myModal .modal-body {
 	color: black;
 	font-family: times;
+	text-align:center;
 }
 
 #myModal .modal-body h3{
 	letter-spacing: .75em;
 	font-weight: 900;
 	font-size: 20pt;
-	text-align: center;
 	color: #824a80;
 }
 
