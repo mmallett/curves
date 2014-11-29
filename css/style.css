@@ -184,6 +184,7 @@ PANEL 1
 	-moz-box-shadow: inset 3px 3px 15px -1px black;
 	-webkit-box-shadow: inset 3px 3px 15px -1px black;
 	box-shadow: inset 3px 3px 15px -1px black;
+	padding: 10px;
 }
 
 #myModal {
