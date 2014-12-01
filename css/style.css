@@ -600,3 +600,22 @@ MEDIA QUERIES
 		min-width: 715px;
 	}
 }
+
+#messagebox{
+	display: none;
+
+	text-align: center !important;
+	font-family: gotham-htf;
+	font-size: 1.4em;
+
+	padding-top: 20px;
+	color:white;
+}
+
+#messagebox img{
+	width: 30px;
+}
+
+#messagebox.error{
+	color: red;
+}

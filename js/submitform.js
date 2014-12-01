@@ -20,7 +20,7 @@ function submitform(){
 		messagebox.show();
 		button.prop("disabled", true);
 
-		var data = $('#contact-form').serialize();
+		var data = $('#contactForm').serialize();
 
 		$.post('sendmail.php', data)
 		.done(function(data){
